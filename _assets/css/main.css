@@ -1,0 +1,152 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  user-select: none;
+}
+*, :after, :before {
+  box-sizing: inherit;
+}
+
+/* BODY */
+body {
+	margin: 0px;
+	padding: 0px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	max-width: 100%;
+	min-height: 100vh;
+	height: auto;
+	letter-spacing: 0.1em;
+}
+
+/* LOGO & HEADING */
+.logo {
+  width: 300px;
+}
+h2 {
+  color: #ffff;
+}
+
+/* APP VERSION */
+.app-version {
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	color: #ffff;
+	z-index: -5;
+}
+
+/* GENERAL TREE ITEM */
+.tree-item {
+	display: block;
+	max-width: 500px;
+	margin: 0 auto 15px;
+	margin-bottom: 5px;
+	padding: 15px 20px;
+	font-size: 0.95rem;
+	line-height: 1.5;
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+	color: black;
+}
+.tree-item .hover-bg-white:hover {
+	background-color: #fff;
+}
+
+
+/* TWITTER */
+.tree-item .twitter {
+	border-bottom: 3px solid #1DA1F2;
+	box-shadow: inset 0 -4px 0 #1DA1F2;
+	border-radius: 25px;
+	border: 2px solid #1DA1F2;
+	background-color: #1DA1F2;
+}
+
+/* SPOTIFY */
+.tree-item .spotify {
+	border-bottom: 3px solid #1DB954;
+	box-shadow: inset 0 -4px 0 #1DB954;
+	border-radius: 25px;
+	border: 2px solid #1DB954;
+	background-color: #1DB954;
+}
+
+/* GITHUB */
+.tree-item .github {
+	border-bottom: 3px solid #24292e;
+	box-shadow: inset 0 -4px 0 #24292e;
+	border-radius: 25px;
+	border: 2px solid #24292e;
+	background-color: #24292e;
+	color: #fff00;
+}
+
+/* STEAM */
+.tree-item .steam {
+	border-bottom: 3px solid #202d45;
+	box-shadow: inset 0 -4px 0 #202d45;
+	border-radius: 25px;
+	border: 2px solid #202d45;
+	background-color: #202d45;
+}
+
+/* REPL.IT */
+.tree-item .replit {
+	border-bottom: 3px solid #989ba1;
+	box-shadow: inset 0 -4px 0 #989ba1;
+	border-radius: 25px;
+	border: 2px solid #989ba1;
+	background-color: #989ba1;
+}
+
+/* SARPEX */
+.tree-item .sarpex {
+	border-bottom: 3px solid #1881ad;
+	box-shadow: inset 0 -4px 0 #1881ad;
+	border-radius: 25px;
+	border: 2px solid #1881ad;
+	background-color: #1881ad;
+}
+
+/* GitLab */
+.tree-item .gitlab {
+	border-bottom: 3px solid #fa7035;
+	box-shadow: inset 0 -4px 0 #fa7035;
+	border-radius: 25px;
+	border: 2px solid #fa7035;
+	background-color: #fa7035;
+}
+
+/* CDN */
+.tree-item .cdn {
+	border-bottom: 3px solid #DDB023;
+	box-shadow: inset 0 -4px 0 #DDB023;
+	border-radius: 25px;
+	border: 2px solid #DDB023;
+	background-color: #DDB023;
+}
+
+
+/* CHANNELS */
+.channels {
+	display: flex;
+	max-width: 400px;
+	margin: 0 auto;
+	margin-bottom: 1em;
+}
+.channels .channels__item {
+  flex: 1;
+  margin-right: 5px;
+  transition: transform 0.2s;
+}
+.channels__item:hover {
+  transform: scale(1.5);
+}
